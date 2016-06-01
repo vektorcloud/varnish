@@ -8,6 +8,7 @@ dependencies:
     - |
       if [[ "$CIRCLE_BRANCH" == "master" ]]; then
         docker build -t quay.io/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}:latest .
+        docker tag quay.io/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}:latest quay.io/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}:4
       else
         docker build -t quay.io/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}:${CIRCLE_BRANCH} .
       fi

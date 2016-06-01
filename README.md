@@ -1,6 +1,6 @@
 # varnish
 
-Alpine-based Varnish4 image
+Alpine-based Docker image with Varnish 4
 
 ## Usage
 
