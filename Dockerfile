@@ -1,4 +1,4 @@
-FROM quay.io/vektorcloud/base:3.4
+FROM quay.io/vektorcloud/base:3.6
 
 ENV CACHE_SIZE 128m
 
