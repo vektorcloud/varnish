@@ -1,5 +1,7 @@
 # varnish
 
+![circleci][circleci]
+
 Alpine-based Docker image with Varnish 4
 
 ## Usage
@@ -7,3 +9,5 @@ Alpine-based Docker image with Varnish 4
 ```bash
 docker run -d quay.io/vektorcloud/varnish:latest -p default_ttl=3600 -p default_grace=3600
 ```
+
+[circleci]: https://img.shields.io/circleci/project/github/vektorcloud/varnish.svg "varnish"
