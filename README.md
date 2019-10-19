@@ -1,6 +1,6 @@
 # varnish
 
-![circleci][circleci]
+[![circleci][circleci]](https://circleci.com/gh/vektorcloud/varnish)
 
 Alpine-based Docker image with Varnish 4
 
